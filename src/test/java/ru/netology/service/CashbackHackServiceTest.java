@@ -9,7 +9,7 @@ class CashbackHackServiceTest {
         CashbackHackService cashbackHackService = new CashbackHackService();
         int executed=0;
         int actual = cashbackHackService.remain(1000);
-        assertEquals(executed,actual);
+        assertEquals(actual,executed);
     }
 
     @org.testng.annotations.Test
@@ -25,7 +25,7 @@ class CashbackHackServiceTest {
         CashbackHackService cashbackHackService = new CashbackHackService();
         int executed=100;
         int actual = cashbackHackService.remain(1100);
-        assertEquals(executed,actual);
+        assertEquals(actual,executed);
     }
 
 }
